@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name     = 'Realm+JSON'
-  s.version  = '0.2.16'
-  s.ios.deployment_target     = '7.0'
+  s.version  = '0.2.16.1'
+  s.ios.deployment_target     = '9.0'
   s.osx.deployment_target     = '10.9'
   s.watchos.deployment_target = '2.0'
   s.license  = { :type => 'MIT', :file => 'LICENSE' }
@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Realm+JSON/*.{h,m}'
   s.public_header_files = 'Realm+JSON/*.h'
 
-  s.dependency 'Realm', '~> 1.0'
+  s.dependency 'Realm', '~> 2.8.1'
 end
