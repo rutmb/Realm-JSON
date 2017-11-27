@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'Realm+JSON'
-  s.version  = '0.2.16.1'
+  s.version  = '0.2.16.2'
   s.ios.deployment_target     = '8.0'
   s.osx.deployment_target     = '10.9'
   s.watchos.deployment_target = '2.0'
